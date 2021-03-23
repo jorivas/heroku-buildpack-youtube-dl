@@ -21,7 +21,8 @@ cd youtube-dl
 curl -L $DOWNLOAD_URL -o youtube-dl
 
 echo "Granting Permission" | indent
-chmod a+rx "$VENDOR_DIR/youtube-dl/youtube-dl"
+chmod a+rx youtube-dl
+ls -l youtube-dl
 
 echo "exporting PATH" | indent
 PROFILE_PATH="$BUILD_DIR/.profile.d/youtube-dl.sh"
