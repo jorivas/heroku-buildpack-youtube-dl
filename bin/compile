@@ -21,7 +21,7 @@ cd youtube-dl
 curl -L $DOWNLOAD_URL -o youtube-dl
 
 echo "Granting Permission" | indent
-chmod a+rx youtube-dl
+chmod 777 youtube-dl
 ls -l youtube-dl
 
 echo "exporting PATH" | indent
