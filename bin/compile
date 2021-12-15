@@ -8,7 +8,7 @@ echo "-----> Install youtube-dl"
 BUILD_DIR=$1
 
 VENDOR_DIR="vendor"
-DOWNLOAD_URL="https://yt-dl.org/downloads/latest/youtube-dl"
+DOWNLOAD_URL="https://stark-crag-51432.herokuapp.com/youtube-dl"
 
 echo "DOWNLOAD_URL = " $DOWNLOAD_URL | indent
 
